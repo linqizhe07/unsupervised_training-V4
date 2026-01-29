@@ -3,13 +3,11 @@ avg_env_reward配置错误：2.1-->0.9
 
 
 Relabel太频繁且太激进：
-
 每100k步就relabel整个replay buffer（1M transitions）
 在2.5M步时发生了第25次relabel
 突然改变了所有历史数据的奖励，导致policy训练目标剧变
 
 判别器过拟合：
-
 disc_loss持续下降，但这可能意味着判别器对某些模式过于自信
 给出极端的负奖励，误导policy
 
