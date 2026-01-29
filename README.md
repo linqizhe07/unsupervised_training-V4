@@ -1,5 +1,5 @@
 # 修复了已知问题
-avg_env_reward配置错误：
+avg_env_reward配置错误：2.1-->0.9
 
 
 Relabel太频繁且太激进：
