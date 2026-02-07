@@ -14,7 +14,7 @@ disc_loss持续下降，但这可能意味着判别器对某些模式过于自�
 # 直接运行
 python script_stable.py
 
-# 监控训练（在另一个终端）
+# 监控训练
 tensorboard --logdir ./logs
 监控指标:
 
